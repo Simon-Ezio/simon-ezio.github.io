@@ -95,7 +95,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/dillonzq/LoveIt"
+  gitRepo = "https://github.com/Simon-Ezio/simon-ezio.github.io"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
@@ -287,8 +287,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = ""
-    Linkedin = ""
+    GitHub = "https://github.com/Simon-Ezio"
+    Linkedin = "https://www.linkedin.com/in/ximu-wang-376696171/"
     # Twitter = ""
     # Instagram = ""
     # Facebook = ""
@@ -319,48 +319,48 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Paypal = ""
     # Fivehundredpx = ""
     # Mix = ""
-    Goodreads = ""
-    Lastfm = ""
-    Foursquare = ""
-    Hackernews = ""
-    Kickstarter = ""
-    Patreon = ""
-    Steam = ""
-    Twitch = ""
-    Strava = ""
-    Skype = ""
-    Whatsapp = ""
-    Zhihu = ""
-    Douban = ""
-    Angellist = ""
-    Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
-    Behance = ""
-    Dribbble = ""
-    Wordpress = ""
-    Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
-    Mastodon = ""
-    Thingiverse = ""
-    Devto = ""
-    Gitea = ""
-    XMPP = ""
-    Matrix = ""
-    Bilibili = ""
-    Discord = ""
-    DiscordInvite = ""
-    Lichess = ""
-    ORCID = ""
-    Pleroma = ""
-    Kaggle = ""
-    MediaWiki= ""
-    Plume = ""
-    HackTheBox = ""
-    RootMe= ""
-    Email = ""
-    RSS = ""
+    # Goodreads = ""
+    # Lastfm = ""
+    # Foursquare = ""
+    # Hackernews = ""
+    # Kickstarter = ""
+    # Patreon = ""
+    # Steam = ""
+    # Twitch = ""
+    # Strava = ""
+    # Skype = ""
+    # Whatsapp = ""
+    # Zhihu = ""
+    # Douban = ""
+    # Angellist = ""
+    # Slidershare = ""
+    # Jsfiddle = ""
+    # Deviantart = ""
+    # Behance = ""
+    # Dribbble = ""
+    # Wordpress = ""
+    # Vine = ""
+    # Googlescholar = ""
+    # Researchgate = ""
+    # Mastodon = ""
+    # Thingiverse = ""
+    # Devto = ""
+    # Gitea = ""
+    # XMPP = ""
+    # Matrix = ""
+    # Bilibili = ""
+    # Discord = ""
+    # DiscordInvite = ""
+    # Lichess = ""
+    # ORCID = ""
+    # Pleroma = ""
+    # Kaggle = ""
+    # MediaWiki= ""
+    # Plume = ""
+    # HackTheBox = ""
+    # RootMe= ""
+    Email = "429066515@qq.com"
+    # RSS = ""
 
   # Page global config
   # 文章页面全局配置
@@ -461,9 +461,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
+      Linkedin = true
       Whatsapp = false
-      Pinterest = false
+      Pinterest = true
       Tumblr = false
       HackerNews = true
       Reddit = false
@@ -607,7 +607,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "Ximu Wang"
         logoUrl = "/images/avatar.png"
 
   # TypeIt config
@@ -841,7 +841,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/Simon-Ezio"
         title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
@@ -869,18 +869,19 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "xxxx"
-        Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        Phone = "555-555-555"
-        Email = "xxxx@xxxx.com"
+        GitHub = "https://github.com/Simon-Ezio"
+        # Twitter = "xxxx"
+        # Instagram = "xxxx"
+        # Facebook = "xxxx"
+        # Telegram = "xxxx"
+        # Youtubelegacy = "xxxx"
+        # Phone = "555-555-555"
+        Email = "429066515@qq.com"
         RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        Linkedin = "ximu-wang-376696171/"
+        # [languages.en.params.social.Mastodon]
+        #   id = "@xxxx"
+        #   prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
     weight = 2
@@ -934,7 +935,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/Simon-Ezio"
         title = "GitHub"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
@@ -962,13 +963,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.zh-cn.params.social]
-        GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
-        Email = "xxxx@xxxx.com"
-        Phone = "555-555-555"
+        GitHub = "https://github.com/Simon-Ezio"
+        # Weibo = "xxxx"
+        # Steam = "xxxx"
+        # Zhihu = "xxxx"
+        # Douban = "xxxx"
+        # Devto = "xxxx"
+        # Bilibili = "xxxx"
+        Email = "429066515@qq.com"
+        # Phone = "555-555-555"
         RSS = true
+        Linkedin = "ximu-wang-376696171/"
